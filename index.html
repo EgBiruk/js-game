@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+    <div class="app-header">
+        <h1 class="game-time">Время игры: <span class="game-time-span">5</span></h1>
+        <h1 class="game-score hide">Ваш результат: <span class="game-score-span"></span></h1>
+    </div>
+    <div class="app-content">
+        <div class="game-field"></div>
+        <button class="start-btn">Начать</button>
+    </div>
+    <div class="app-footer">
+        <div class="input">
+            <label for="game-time">Время игры, (сек)</label>
+            <input type="number" class="input-time" min="5" step="1" value="5">
+        </div>
+    </div>
+</div>
+</body>
+</html>
